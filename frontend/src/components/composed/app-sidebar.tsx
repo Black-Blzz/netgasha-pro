@@ -1,3 +1,4 @@
+"use client"
 import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuItem } from "@radix-ui/react-dropdown-menu";
 import { SidebarContent, Sidebar, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarMenu, SidebarMenuButton, SidebarMenuItem, SidebarHeader, SidebarFooter } from "../ui/sidebar";
 import { Inbox, MapPin, ShieldBan, Gauge, ShieldAlert, BadgeInfo, ChevronDown, ChevronUp, FolderKanban} from "lucide-react"
@@ -55,10 +56,10 @@ export function AppSidebar() {
           </DropdownMenuTrigger>
           <DropdownMenuContent className="w-[--radix-popper-anchor-width]">
             <DropdownMenuItem>
-              <span>Acme Inc</span>
+              <span>project-1</span>
             </DropdownMenuItem>
             <DropdownMenuItem>
-              <span>Acme Corp.</span>
+              <span>project-2</span>
             </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
