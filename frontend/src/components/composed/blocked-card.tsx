@@ -8,7 +8,7 @@ export default async function BlockedCard() {
   const data: IBloackedCollection = await response.json();
 
   return (
-    <Card className="w-xs h-80 flex relative flex-col items-center gap-10">
+    <Card className="w-xs h-[474px] flex relative flex-col items-center gap-10">
       <Link href={'dashboard/blocked-ip'}>
         <ExternalLink className="absolute top-3 right-3 hover:scale-120 hover:cursor-pointer" />
       </Link>

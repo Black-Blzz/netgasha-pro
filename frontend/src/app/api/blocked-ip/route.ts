@@ -10,7 +10,7 @@ export async function GET() {
           email: 'user1@example.com',
           role: 'admin',
         },
-        timeOfBlock: new Date(),
+        time: new Date(),
       },
       {
         ipAddress: '10.0.0.1',
@@ -18,7 +18,7 @@ export async function GET() {
           email: 'user2@example.com',
           role: 'user',
         },
-        timeOfBlock: new Date(),
+        time: new Date(),
       },
     ],
     totalBloacked: 2000

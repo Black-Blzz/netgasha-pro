@@ -6,7 +6,7 @@ export interface IBloackedCollection{
 export interface IBlocked{
     ipAddress: string;
     user: userInfo;
-    timeOfBlock: Date;
+    time: Date;
 }
 export interface IWhiteList{
     ipAddress: string;
@@ -15,6 +15,7 @@ export interface IWhiteList{
 }
 export interface IAccessLogs{
     ipAddress: string;
+    time: Date;
     user: userInfo;
     url: string;
 }
