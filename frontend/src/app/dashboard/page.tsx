@@ -1,5 +1,6 @@
 import BlockedCard from "../../components/composed/blocked-card";
 import LineGraph from "../../components/composed/log-graph";
+import PyChart from "../../components/composed/pychart";
 
 export default function Dashboard() {
     
@@ -9,8 +10,8 @@ export default function Dashboard() {
             <LineGraph/>
             <BlockedCard/>
         </div>
-        <div>
-
+        <div className="flex justify-center items-center w-full h-fit">
+            <PyChart/>
         </div>
     </div>
     )
