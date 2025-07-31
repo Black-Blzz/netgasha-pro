@@ -7,22 +7,22 @@ import { Inbox, MapPin, ShieldBan, Gauge, ShieldAlert, BadgeInfo, ChevronDown, C
 const items = [
   {
     title: "Blocked IP",
-    url: "#",
+    url: "blocked-ip",
     icon: ShieldBan,
   },
   {
     title: "White List",
-    url: "#",
+    url: "white-list",
     icon: Inbox,
   },
   {
     title: "Rate Limiting",
-    url: "#",
+    url: "rate-limiting",
     icon: Gauge,
   },
   {
     title: "Geo Fencing",
-    url: "#",
+    url: "geo-fencing",
     icon: MapPin,
   },
 ]
@@ -30,12 +30,12 @@ const items = [
 const logs = [
   {
     title: "Access Logs",
-    url: "#",
+    url: "access-logs",
     icon: BadgeInfo,
   },
   {
     title: "Attack Logs",
-    url: "#",
+    url: "attack-logs",
     icon: ShieldAlert,
   }
 ]
